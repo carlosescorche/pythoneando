@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+#coding=utf-8
 # Son los arrays o vectores de Python y son muy flexibles
 # Pueden contenter cualquier tipo de dato, incluso otras listas
 
@@ -18,3 +18,42 @@ print lista
 
 #accediendo al ultimo elemento
 print lista[-1]
+
+#slicing 
+print(lista[:3])
+print(lista[1:-1])
+print(lista[::2]) #slicing con saltos
+
+#inserciones
+lista.append('será eliminado luego') #agregar el valor en la ultima posición
+print lista
+
+lista.insert(1,200) #inserta el elemento segun el index que indiques
+print lista
+
+#eliminar
+lista.remove(200)
+print lista
+
+#eliminar el ultimo elemento
+lista.pop()
+print lista
+
+#buscar
+print 200 in lista
+print 2 in lista
+
+#buscar index
+print lista.index(2)
+
+#cantidad de elementos
+print len(lista)
+
+#elemento minimo
+print min(lista)
+
+#elemento maximo
+print max(lista)
+
+
+
