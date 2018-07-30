@@ -15,31 +15,31 @@ materias['miercoles'] = ['diseno UI','algoritmo']
 materias['jueves'] = ['diseno UX']
 materias['viernes'] = ' libre'
 
-print materias
+print(materias)
 
 #obtiene el valor de la clave
-print materias.get('lunes')
+print(materias.get('lunes'))
 
 #comprobación - verifica si existe la clave
-print "es falso", materias.has_key('marte')
-print "es verdadero", materias.has_key('martes')
+print("es falso", materias.has_key('marte'))
+print("es verdadero", materias.has_key('martes'))
 
 #mostrar claves
-print materias.keys()
+print(materias.keys())
 
 #mostrar valores 
-print materias.values()
+print(materias.values())
 
 #eliminar
 del(materias['viernes'])
-print materias
+print(materias)
 
 #pop
-print materias.pop('lunes')
-print materias
+print(materias.pop('lunes'))
+print(materias)
 
 #items - muestra tuplas con clave, valor
-print materias.items()
+print(materias.items())
 
 
 

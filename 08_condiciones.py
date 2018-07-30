@@ -28,4 +28,4 @@ else:
 
 #asignando valor condicionado
 valor = "aprobado" if nota >= 5 else "reprobado"
-print valor
+print(valor)
