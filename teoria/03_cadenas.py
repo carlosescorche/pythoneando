@@ -16,7 +16,7 @@ cadena = """
             Esto es una cadena
             De varias lineas
         """
-print(cadena)
+print(cadena, end=" ")
 
 #Concatenar
 h = "hola"
